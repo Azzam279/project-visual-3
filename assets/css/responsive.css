@@ -1,0 +1,240 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-form {
+		width: 350px;
+		margin-left: 0px;
+		margin-top: 3px;
+	}
+	#input-search {
+		border-radius: 6px 0 0 6px;
+		padding: 15px;
+		height: 45px;
+		width: 250px;
+	}
+
+	#keranjang {
+		display: inline-block;
+		margin-left: 135px;
+	}
+	#keranjang::after {
+		content: " ";
+		width: 3px;
+		height: 3px;
+		clear: both;
+	}
+
+	#total-harga-dikeranjang {
+		display: inline-block;
+	}
+
+	#gambar-promo {
+		width: 700px;
+	}
+
+	footer .menu-footer > div {
+		width: 32.3%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#menu2 {
+		width: 100%;
+		position: relative;
+		z-index: 1;
+		height: 70px;
+		margin-bottom: 0px;
+	}
+
+	#navbar-collapse-2 {
+		margin-top: 10px;
+		margin-right: 2px;
+	}
+
+	.navbar-form {
+		width: 250px;
+		margin-left: 0px;
+		margin-top: 3px;
+	}
+	#input-search {
+		border-radius: 6px 0 0 6px;
+		padding: 15px;
+		height: 45px;
+		width: 150px;
+	}
+
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+    
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+
+	#menu-kategori {
+		width: 100%;
+		margin: 10px auto;
+		padding-left: 0px;
+		text-align: center;
+	}
+	#menu-kategori .horz-menu {
+		display: none;
+	}
+
+	#total-harga-dikeranjang {
+		display: none;
+	}
+
+	footer .menu-footer > div {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.nav-fixed {
+		width: 100%;
+		position: fixed;
+		z-index: 9000;
+		top: 0;
+		left: 0;
+		transform: translateY(50px);
+		transition: transform .5s ease-in-out;
+	}
+
+	.hide-menu1 {
+		transform: translateY(0);
+	}
+
+	#menu1 {
+		height: 50px;
+		min-height: 30px;
+		margin-bottom: 0px;
+		border-bottom: white;
+		font-size: 17px;
+		position: absolute;
+		z-index: 5;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		transform: translateY(-100%);
+		transition: transform .5s ease-in-out;
+	}
+	#navbar-collapse-1 {
+		background: #D2D2D2;
+	}
+	#slogan {
+		font-size: 13px;
+		text-decoration: underline;
+		text-align: center;
+	}
+	#navbar-collapse-1 > .navbar-nav > li > a {
+		width: 100%;
+		font-size: 15px;
+		text-align: center;
+	}
+	#navbar-collapse-1 > .navbar-nav{
+		padding: 10px;
+		margin-top: 0px;
+	}
+	#navbar-collapse-1 > .navbar-nav > li {
+		padding: 7px;
+	}
+	#navbar-collapse-1 > .navbar-nav > li:nth-child(3) {
+		display: none;
+	}
+	#navbar-collapse-1 > .navbar-nav > li:nth-child(5) {
+		display: none;
+	}
+
+	#navbar-collapse-2 {
+		background: white;
+	}
+
+	.navbar-form {
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 3px;
+	}
+	#input-search {
+		border-radius: 6px 0 0 6px;
+		padding: 15px;
+		height: 45px;
+		width: 90%;
+		margin-right: 0px;
+		display: inline-block;
+	}
+
+	#btn-login {
+		border-radius: 10px;
+		text-align: center;
+	}
+	#btn-daftar {
+		border-radius: 10px;
+		text-align: center;
+	}
+	#btn-logout {
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	#keranjang {
+		margin: 2px auto;
+		width: 100%;
+	}
+	
+	#total-harga-dikeranjang {
+		display: none;
+	}
+
+	#menu-kategori {
+		width: 100%;
+		margin: 10px auto;
+		padding-left: 0px;
+		text-align: center;
+	}
+	#menu-kategori .horz-menu {
+		display: none;
+	}
+
+	footer .menu-footer > div {
+		width: 100%;
+	}
+}
+
+@media (max-width: 608px) {
+	#input-search {
+		width: 80%;
+		margin-right: 0px;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 371px) {
+	#slogan {
+		font-size: 10px;
+		text-decoration: underline;
+		text-align: center;
+	}
+}
+
+@media (max-width: 343px) {
+	#input-search {
+		width: 75%;
+		margin-right: 0px;
+		display: inline-block;
+	}
+}

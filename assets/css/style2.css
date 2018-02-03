@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 991px) {
+	#dropdown-pesanan {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	#menu2 .navbar-brand {
+		margin-left: 50px;
+	}
+
+	.produk-wrapper-2 {
+		display: inline-block;
+	}
+	
+	#slogan {
+		font-size: 15px;
+		text-decoration: underline;
+		text-align: center;
+		padding-left: 40px;
+	}
+
+	#dropdown-pesanan {
+		display: none;
+	}
+}
+
+@media (max-width: 460px) {
+	#menu2 .navbar-brand {display: none;}
+	#slogan {display: none;}
+	#link-home {display: block;}
+	#dropdown-pesanan {
+		display: none;
+	}
+}

@@ -1,0 +1,329 @@
+hr {
+  border: solid 1px #E1E1E1;
+}
+
+@media (max-width: 991px) {
+   .navbar-nav > li.open > .dropdown-menu {
+    background: #fff;
+  }
+  .skin-blue .main-header .navbar .dropdown-menu li a {
+    color: black;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav > li.open > .dropdown-menu {
+    background: #fff;
+  }
+  .skin-blue .main-header .navbar .dropdown-menu li a {
+    color: black;
+  }
+  .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+    color: white;
+  }
+}
+
+#accordion {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 12px;
+}
+#accordion .panel-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: verdana;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+#accordion .panel-title > a {width: 100%;height: 20px; margin: auto;}
+#accordion legend {
+  text-transform: uppercase;
+  font-family: tahoma;
+}
+
+.input-group .input-group-addon {background-color: #EEEEEE;}
+
+.alert-sukses {
+    background-color: #DFF0D8;
+    color: #3C763D;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.alert-gagal {
+    background-color: #F2DEDE;
+    color: #A94442;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.alert-informasi {
+    background-color: #D9EDF7;
+    color: #31708F;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.alert-peringatan {
+    background-color: #FCF8E3;
+    color: #B88740;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.preloader6{
+    position:relative;
+    width:30px;
+    height:30px;
+    background:#3498db;
+    border-radius:50px;
+    visibility: hidden;
+}
+.preloader6:after{
+  visibility: visible;
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-top:2px solid #9b59b6;
+    border-bottom:2px solid #9b59b6;
+    border-left:2px solid transparent;
+    border-right:2px solid transparent;
+    border-radius:30px;
+    content:'';
+    top:40%;
+    left:40%;
+    animation: preloader_6 1.5s infinite linear;
+}
+@keyframes preloader_6 {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.chat li.left .chat-img
+{
+  margin-right: 8px;
+}
+
+.chat li.right .chat-img
+{
+  margin-left: 8px;
+}
+
+.preloader5{
+    position:relative;
+    width:30px;
+    height:30px;
+    background:#3498db;
+    border-radius:50px;
+    animation: preloader_5 1.5s infinite linear;
+}
+.preloader5:after{
+    position:absolute;
+    width:55px;
+    height:55px;
+    border-top:10px solid #9b59b6;
+    border-bottom:10px solid #9b59b6;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-radius:55px;
+    content:'';
+    top:-12px;
+    left:-13px;
+    animation: preloader_5_after 1.5s infinite linear;
+}
+@keyframes preloader_5 {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);background:#2ecc71;}
+    100% {transform: rotate(360deg);}
+}
+@keyframes preloader_5_after {
+    0% {border-top:10px solid #9b59b6;border-bottom:10px solid #9b59b6;}
+    50% {border-top:10px solid #3498db;border-bottom:10px solid #3498db;}
+    100% {border-top:10px solid #9b59b6;border-bottom:10px solid #9b59b6;}
+}
+
+/* Loading Button -BEGIN- */
+@-webkit-keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+@-moz-keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+@-o-keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+@keyframes ld {
+  0%   { transform: rotate(0deg) scale(1); }
+  50%  { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+.m-progress {
+    position: relative;
+    opacity: .8;
+    color: transparent !important;
+    text-shadow: none !important;
+}
+
+.m-progress:hover,
+.m-progress:active,
+.m-progress:focus {
+    cursor: default;
+    color: transparent;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.m-progress:before {
+    content: '';
+    
+    display: inline-block;
+    
+    position: absolute;
+    background: transparent;
+    border: 1px solid #fff;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    
+    box-sizing: border-box;
+    
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+    
+    width: 24px;
+    height: 24px;
+    
+    -webkit-animation: ld 1s ease-in-out infinite;
+    -moz-animation:    ld 1s ease-in-out infinite;
+    -o-animation:      ld 1s ease-in-out infinite;
+    animation:         ld 1s ease-in-out infinite;
+}
+
+.btn-default.m-progress:before {
+    border-left-color: #333333;
+    border-right-color: #333333;
+}
+
+.btn-lg.m-progress:before {
+    margin-top: -16px;
+    margin-left: -16px;
+    
+    width: 32px;
+    height: 32px;
+}
+
+.btn-sm.m-progress:before {
+    margin-top: -9px;
+    margin-left: -9px;
+    
+    width: 18px;
+    height: 18px;
+}
+
+.btn-xs.m-progress:before {
+    margin-top: -7px;
+    margin-left: -7px;
+    
+    width: 14px;
+    height: 14px;
+}
+/* Loading Button -END- */
+
+/* Validasi label -Start- */
+#info {
+  animation: bounceInDown 500ms;
+  position: absolute;
+  width:500px;
+  margin-left: -250px;
+  top: 20%;
+  left: 50%;
+  z-index: 9010;
+  text-align: center;
+    -webkit-animation-name: bounceInOut;
+    -webkit-animation-duration: 5s;
+    animation-name: bounceInOut;
+    animation-duration: 5s;
+}
+
+@keyframes bounceInOut {
+  0%, 10%, 25%, 40%, 50% {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  25% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  45% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  50% {
+    transform: translate3d(0, 7px, 0);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translate3d(0, 7px, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+/* Validasi label -Finish- */
